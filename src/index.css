@@ -1,0 +1,52 @@
+:root {
+  --main-color: #2E3238;
+  --accent-color: #D5D8DD;
+  --bg-color: #ffffff;
+  --border: 2px solid var(--accent-color);
+  --border-radius: 4px;
+  --font-size: 14px;
+  --padding: 16px;
+}
+
+html {
+font-family: Open Sans, sans-serif;
+block-size: 100%;
+font-size: var(--font-size);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}

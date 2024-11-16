@@ -1,0 +1,14 @@
+.form {
+    position: relative;
+    z-index: 1;
+    height: 32px; 
+}
+
+.input {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    height: 32px; 
+    padding: 8px; 
+}
+

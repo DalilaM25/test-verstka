@@ -1,0 +1,39 @@
+.subHeader {
+    position: sticky; 
+    top: 48px; 
+    background-color: var(--bg-color);
+    padding: var(--padding);
+    padding-inline-end: 25px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+    width: 100%; 
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+
+.taskGroup {
+display: flex;
+gap: var(--padding);
+}
+
+.saveBtnGroup {
+display: flex;
+gap: 4px;
+}
+
+.subHeader .taskGroup Button,
+.subHeader .saveBtnGroup Button{
+padding: 6px 12px;
+}
+
+.subHeader .saveBtnGroup Button:first-child {
+    background-color: #0078CF;
+    border: none;
+    color: var(--bg-color);
+}
+
+.subHeader.scrolled {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}

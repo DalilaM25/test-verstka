@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 174px;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--padding);
+}
+
+.container form input {
+    width: 296px;
+}
+
+.container form div {
+    position: absolute;
+    left: 273px;
+    top: 53%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
