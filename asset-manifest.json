@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/test-verstka/static/css/main.de0ba394.css",
-    "main.js": "/test-verstka/static/js/main.ce970b1a.js",
+    "main.js": "/test-verstka/static/js/main.af8eac3d.js",
     "index.html": "/test-verstka/index.html",
     "static/media/Arrow.svg": "/test-verstka/static/media/Arrow.4585563594403989d874.svg",
     "main.de0ba394.css.map": "/test-verstka/static/css/main.de0ba394.css.map",
-    "main.ce970b1a.js.map": "/test-verstka/static/js/main.ce970b1a.js.map"
+    "main.af8eac3d.js.map": "/test-verstka/static/js/main.af8eac3d.js.map"
   },
   "entrypoints": [
     "static/css/main.de0ba394.css",
-    "static/js/main.ce970b1a.js"
+    "static/js/main.af8eac3d.js"
   ]
 }
