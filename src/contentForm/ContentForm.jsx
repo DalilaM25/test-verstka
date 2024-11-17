@@ -1,6 +1,5 @@
-import SubHeader from '../subHeader/SubHeader'
-import TaskForm from '../taskForm/TaskForm'
-// import styles from './ContentForm.module.css'
+import SubHeader from '../subHeader/SubHeader';
+import TaskForm from '../taskForm/TaskForm';
 
 function ContentForm() {
     return (
@@ -8,7 +7,7 @@ function ContentForm() {
             <SubHeader />
             <TaskForm />
         </>
-    )
+    );
 }
 
-export default ContentForm
+export default ContentForm;

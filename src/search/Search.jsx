@@ -2,7 +2,7 @@ import styles from './Search.module.css'
 
 function Search({ svgIcon, placeholderText }) {
     return (
-        <form className={styles.form} action="/search" method="get">
+        <form className={styles.form}>
             <input
                 className={styles.input}
                 type="search"
@@ -12,7 +12,7 @@ function Search({ svgIcon, placeholderText }) {
             />
             {svgIcon && <div className={styles.icon}>{svgIcon}</div>}
         </form>
-    )
+    );
 }
 
 export default Search

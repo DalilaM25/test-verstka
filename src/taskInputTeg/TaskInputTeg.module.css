@@ -1,0 +1,46 @@
+.input {
+    position: relative;
+    display: flex;
+    gap: 4px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;border: var(--border);
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    min-height: 32px;
+    padding: 2px;
+    gap: 4px;
+    padding-inline-end: 20px;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    background-color: #E5F4FF;
+    border-radius: 4px;
+    border: 1px solid #99D5FF;
+    padding: 2px 8px;
+}
+
+.remove {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.removeAll {
+    position: absolute;
+    right: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.editableInput {
+    min-width: 20px;
+    outline: none;
+    flex-grow: 1;
+}

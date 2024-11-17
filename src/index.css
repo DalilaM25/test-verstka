@@ -8,12 +8,6 @@
   --padding: 16px;
 }
 
-html {
-font-family: Open Sans, sans-serif;
-block-size: 100%;
-font-size: var(--font-size);
-}
-
 *,
 *::before,
 *::after {
@@ -22,6 +16,14 @@ font-size: var(--font-size);
     padding: 0;
    
 }
+
+html {
+font-family: Open Sans, sans-serif;
+block-size: 100%;
+font-size: var(--font-size);
+
+}
+
 
 h1,
 h2,

@@ -1,0 +1,18 @@
+
+.container {
+    display: flex;
+    gap: 4px;
+}
+
+.input {
+    display: flex;
+    gap: 4px;
+    width: 100%;
+}
+
+
+.remove {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
