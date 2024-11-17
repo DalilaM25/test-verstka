@@ -27,6 +27,13 @@
     height: 24px;
   }
 
+.text {
+    white-space: nowrap;         
+    overflow: hidden;            
+    text-overflow: ellipsis;
+    }
+
+
 .remove {
     margin-inline-start: 5px;
     cursor: pointer;
@@ -48,10 +55,5 @@
 }
 
 @media (width <= 768px) {
-    .text {
-    white-space: nowrap;         
-    overflow: hidden;            
-    text-overflow: ellipsis;
-    }
     .tag{max-width: 158px;}
 }

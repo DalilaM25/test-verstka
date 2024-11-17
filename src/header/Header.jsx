@@ -28,7 +28,8 @@ function Header() {
             </div>
             <img
                 className={styles.logo}
-                src="/images/Logo.png"
+                // eslint-disable-next-line no-undef
+                src={`${process.env.PUBLIC_URL}/images/Logo.png`}
                 alt="логотип компании Simpleone"
             ></img>
             <div className={styles.container}>
