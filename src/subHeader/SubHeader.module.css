@@ -14,6 +14,7 @@
 }
 
 .taskGroup {
+    position: relative;
 display: flex;
 gap: var(--padding);
 }

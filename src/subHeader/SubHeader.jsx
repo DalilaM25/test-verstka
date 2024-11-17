@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './SubHeader.module.css'; 
 import Button from '../button/Button';
-import { Modal } from '../modal/Modal';
-import TaskForm from '../taskForm/TaskForm';
+import ModalForm from '../modalForm/ModalForm';
 
 function SubHeader() {
     const [scrolled, setScrolled] = useState(false);
@@ -32,10 +31,7 @@ function SubHeader() {
             <div className={styles.taskGroup}>
                 <p>Подзадача</p>
                 {isOpen ? (
-                    <Modal onClose={closeModal}>
-                        <TaskForm />
-                        <button onClick={closeModal}>Отмена</button>
-                    </Modal>
+                    <ModalForm closeModal={closeModal}></ModalForm>
                 ) : (
                     <Button buttonContent="Создать" handleClick={openModal} />
                 )}
