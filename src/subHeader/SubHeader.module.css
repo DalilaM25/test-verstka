@@ -1,22 +1,17 @@
 .subHeader {
-    position: sticky; 
     display: flex;
     justify-content: space-between; 
-    align-items: baseline;
-    top: 48px; 
     background-color: var(--bg-color);
     padding: var(--padding);
-    padding-inline-end: 32px;
     font-family: 'Montserrat';
     font-size: 20px;
-    width: 100%; 
-    z-index: 1;
+    width: 100%;
+    z-index: 10;
 }
 
 .taskGroup {
-    position: relative;
-display: flex;
-gap: var(--padding);
+    display: flex;
+    gap: var(--padding);
 }
 
 .saveBtnGroup {
@@ -36,13 +31,20 @@ padding: 6px 12px;
 }
 
 .subHeader.scrolled {
+    position: sticky;
+    top: 48px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-@media (width <= 991px) {
-    .subHeader {
-        grid-column: 2 / 4;
-        grid-row: 1 / 2;
-        width: calc(92.5vw - 5px);
-    }
+@media (width <= 768px) {
+.saveBtnGroup {
+display: none;
 }
+.taskGroup {
+    justify-content: space-between;
+    align-items: baseline;
+}
+.subHeader {
+    display: block;
+    font-size: 16px;
+}}

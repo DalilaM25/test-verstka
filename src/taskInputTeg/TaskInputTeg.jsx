@@ -43,7 +43,7 @@ const TaskInputTeg = ({ textForDemo }) => {
             <div className={styles.container}>
                 {tags.map((tag, index) => (
                     <span className={styles.tag} key={index}>
-                        {tag}
+                        <span className={styles.text}>{tag}</span>
                         <span
                             className={styles.remove}
                             onClick={() => removeTag(tag)}

@@ -1,0 +1,15 @@
+.button {
+    width: 32px;
+    height: 32px;
+    padding-inline: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    color: #2E3238;
+}
+
+.active {
+    color: #005999;
+}

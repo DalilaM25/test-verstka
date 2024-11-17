@@ -5,7 +5,7 @@ function Search({ svgIcon, placeholderText }) {
         <form className={styles.form}>
             <input
                 className={styles.input}
-                type="search"
+                type="text"
                 id="search"
                 name="q"
                 placeholder={placeholderText}

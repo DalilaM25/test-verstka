@@ -10,3 +10,9 @@
     height: 100%;
     border-radius: 50%;
 }
+
+@media (width <= 767px) {
+    .name {
+        display: none;
+    }
+}

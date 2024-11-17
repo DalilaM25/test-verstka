@@ -24,11 +24,13 @@
     border-radius: 4px;
     border: 1px solid #99D5FF;
     padding: 2px 8px;
-}
+    height: 24px;
+  }
 
 .remove {
-    margin-left: 5px;
+    margin-inline-start: 5px;
     cursor: pointer;
+
 }
 
 .removeAll {
@@ -43,4 +45,13 @@
     min-width: 20px;
     outline: none;
     flex-grow: 1;
+}
+
+@media (width <= 768px) {
+    .text {
+    white-space: nowrap;         
+    overflow: hidden;            
+    text-overflow: ellipsis;
+    }
+    .tag{max-width: 158px;}
 }

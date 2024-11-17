@@ -14,6 +14,7 @@ function SubHeader() {
             setScrolled(true);
         } else {
             setScrolled(false);
+
         }
     };
 
